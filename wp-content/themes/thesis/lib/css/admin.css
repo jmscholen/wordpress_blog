@@ -1,0 +1,84 @@
+/*
+Copyright 2012 DIYthemes, LLC. Patent pending. All rights reserved.
+DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC.
+License: DIYthemes Software License Agreement
+License URI: http://diythemes.com/thesis/rtfm/software-license-agreement/
+*/
+@font-face {
+	font-family: 'thesislogo';
+	src: url(data:application/font-woff2;charset=utf-8;base64,d09GMgABAAAAAAVYAA4AAAAACmgAAAT8AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP0ZGVE0cGiAGVgCDAhEICodAhkgBNgIkA1gLLgAEIAWDQAeBTT93ZWJmBhvICMiOkcvzLH/8r8h/Hs/6c/uSFBwaaUfY7iwkFPthFkF2e3XxqwUWUWJpYGn//73Kf9xsDOBWi2DyMsewRZMkGpC1utbxTRUu1blmXXSzKSaSygls9wJAAPAka9dzAHi18A8qrP+XTt5NA8AVAEhAIDghcJ37AMTyaAV4cHwCvwkgH/rbzIp+TQdIIGdSKS+RMABahI+qXUX9kEsd9K+w/P/lLsjekRRzEQfAEr3nAJuiJf01OHQBHOkwcADUKFKmsRS+Mb6dQf/abEyIlGooXGn7zXbN9m3vQ9kHn35w9m03nF5hkASM20kiY/fsFKAUGcDx8HcKUoCfbDapCefNkQAZQIkAXSAEJ9tgpGhA5WuI40rF8KRIjiY7TJw02W7i5BkmhWKmwapULjbDKr5tMKlUiz5WbJ3hqVz8UjS/22h6oegsW2y1KrVLxdkGk35zetEr/S7SykQoLTRz5D6iVdm9baaPYtEtfwtZxRkmzNglCUKkWHRNXznXsPu1UkkKk0nRc3a5uFVi0s/2uRftUo5VvvQzz2k0XdnZdaL2fa/PJsaOGy+avFS0ihbDnkXBWzbcSbcolnyKWUPNZszoWtIyssfctH9xkFU0K5d+QTMtoVlv4dhsncz7YvH84qS3W00qzRL9W02N2iCjRnk7Uq2enzC+WL/rfYPUTtABwnJNIpzzoQ7C8O+/D1LflZ78ms6YA2wcP2ni8eljJ1waxsYwFqn9cYR64m+lVUzQbbZPy7jOylkzqVgVKxlWmGC/XSesppuUjbQj7+/wZgKLPvP+0GVLj+bsF0pjf4zqKmqgvvRD6hUH+6tfNFMDQcy/+MWzePvt9mn5u9JY88sX7FNWTS9UKXxe+oTmj4WbfpaR86yK1TSy/EynpLwPCoroIuXOYrffJHm4MMpZ8Sl7wWSp0lFDk+w360B1GTRzoKU4ictiRXUs6sh7kJ9lvx3NSPicJTlpphRWRdV82XmSPUQRPo/IL29hxU2zM/LV/ynmPs8yfFfEjLzyN/ezcTPiJnylObK97okmwPWDE3nBT7TbcopW2mGL0bt7WrfylodbwuIChxn9Ui53vhOSyP6c3nz+4BBT6iLFZfWsxMKMGRUo3Jsay7u4dulBv91+Sk+nzE5pzEi38VLnTJWn3z4/6UHWXtHV2EhHC1mefN70fN1OnZyt28Y+KZjKz0unanYQT0MCOkouGDrnLezUZv4mU8oAfK/KYoftPeGasByA7Dn9NGTv/HfJBeEeYPtfuPaw2M5D0yY5CPDvQb9pkb4PQUsuxfD8rvGUANcpijWSGIB2A+SSrMFLgGoAtAOatrMn3PqdiVygTPasqbkXKbEIDMTJQXCGxi2BxpABl6FaIJdDsFFcHs42YAIcwx7AHe5DxHqb+wgyUnAeQ0H2B99icA9PNBrAaLSBibCvSsP13a2eUZ+xhug2SrHhhhlTLB6lj5GveNFiiToduo5TO2XT5cmixInP5hMvVpwktGG+hlvPSNEGhOv1FYc1AEq9gVGP/hwqtnkbjD2ULmTUSxEfaNobK93NpouXKoWMJ/VgXQzaEfLJEBUyl/tqMNJYUI+KAkZD/mgzbSvgKPw4ZyAJMYSKEClZSnDEk0BSkpGcFKQkFalJQ1rSkZ3QN2TiiAFx0rHDBsYSTWGhjtfkAHEQDwmQCEmQDCmQCmlkHiu+mEwSq5UFIH2/qgcA) format('woff2'),
+     url(data:application/font-woff;charset=utf-8;base64,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) format('woff'), url('thesis_logo-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'tf'; font-weight: normal; font-style: normal;
+	src: url('../fonts/t_font.eot');
+	src: url('../fonts/t_font.eot?#iefix') format('embedded-opentype'), url('../fonts/t_font.woff') format('woff'), url('../fonts/t_font.ttf') format('truetype'), url('../fonts/t_font.svg#t_font') format('svg'); }
+#screen-meta { display: none; }
+h3, p, ul, ol, li, dl, dt, dd, blockquote, code, input, textarea, select { font-size: inherit; line-height: inherit; font-weight: normal; }
+code { line-height: 1em; }
+#t_admin code { background: none; }
+abbr, acronym { border: 0; }
+input[type="checkbox"], input[type="radio"] { vertical-align: middle; }
+label { cursor: default; }
+code, pre, kbd { font-family: Consolas, Menlo, Monaco, Verdana, sans-serif; }
+body.no-scroll { overflow: hidden; }
+#wphead { display: none; border-bottom: none !important; }
+#t_admin { font: normal 10px/1em ".SFNSText-Regular", "Open Sans", "Lucida Grande", "Segoe UI", Segoe, Tahoma, Geneva, sans-serif; }
+#t_admin * { margin: 0; padding: 0; }
+#t_admin a, #t_admin a:hover, #t_admin a:active { color: #bb0303; text-decoration: underline; }
+#t_admin strong { font-weight: 700; }
+#t_header { min-width: 777px; margin-left: -20px; padding: 8px 24px; background: #363636 url('../images/knurled.png'); border: 2px solid #222; border-width: 2px 0 1px 0; }
+#t_admin #t_logo { float: left; font-family: thesislogo; font-size: 40px; line-height: 31px; text-transform: uppercase; color: rgba(255,255,255,0.6); text-shadow: 1px 1px 4px rgba(0,0,0,0.6); text-decoration: none; transition: color 0.2s ease; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+#t_admin #t_logo:hover { color: #fff; }
+#t_admin #t_logo:active, #t_admin #t_logo:focus { box-shadow: none; }
+#t_nav { font-size: 15px; line-height: 1em; margin-left: 191px; min-width: 560px; }
+#t_nav li { float: left; margin-right: 9px; }
+#t_nav li a { display: block; padding: 9px 12px; text-decoration: none; outline: none; }
+#t_nav li a:hover { color: #fff; background: #6a6a6a; text-decoration: none; }
+#t_nav li.current a, #t_nav .submenu li.current a, #t_nav .more_menu li #t_version { color: #111; background: rgba(255,255,255,0.3); cursor: text; }
+#t_nav li a[href="#"] { cursor: default; pointer-events: none; }
+#t_nav .topmenu { position: relative; }
+#t_nav .more_menu { margin-right: 0; float: right; }
+#t_nav .view_site { float: right; }
+#t_nav .topitem, #t_nav .toplink { color: #ddd; background: #5a5a5a; border: 1px solid rgba(0,0,0,0.5); border-radius: 8px; }
+#t_nav .topmenu .topitem { position: relative; z-index: 140; cursor: default; }
+#t_nav a .icon { font-family: tf; line-height: 0.8em; }
+#t_nav a .count { display: inline-block; min-width: 21px; text-align: center; cursor: help; color: #111; background-color: #fcfc0d; border-radius: 15px; }
+#t_nav .topitem > .count { min-width: 15px; font-size: 12px; vertical-align: top; }
+#t_nav .topmenu .topitem .arrow_down { margin-left: 6px; }
+#t_nav .topmenu .topitem:hover { border-bottom-width: 0; border-color: rgba(0,0,0,0.6); border-radius: 8px 8px 0 0; box-shadow: inset 0 1px 0 rgba(255,255,255,0.45); z-index: 160; }
+#t_nav .topmenu .active { color: #fff; background: #777; border-bottom-width: 0; border-radius: 8px 8px 0 0; box-shadow: inset 0 1px 0 rgba(255,255,255,0.45); z-index: 160; }
+#t_nav .toplink:hover { border-color: rgba(0,0,0,0.6); border-radius: 8px; }
+#t_nav .toplink:active { background: #7a7a7a; }
+#t_nav .submenu { position: absolute; z-index: 150; left: 0; background: #777; border: 1px solid #333; border-top-width: 0; display: none; box-shadow: 0 0 15px rgba(0,0,0,0.4); }
+#t_nav .more_menu .submenu { right: 0; left: auto; }
+#t_nav .submenu li { margin-right: 0; width: 11em; float: none; }
+#t_nav .submenu a { display: block; line-height: 1.4em; padding: 9px 12px; color: #eee; cursor: pointer; }
+#t_nav .submenu a:hover { color: #ff6; background: rgba(0,0,0,0.2); }
+#t_nav .more_menu li #t_version { display: block; line-height: 1.4em; padding: 9px 12px; }
+/*---:[ options pages ]:---*/
+#t_canvas { position: relative; font-size: 16px; line-height: 1.625em; min-width: 777px; padding: 24px 24px 0 5px; color: #111; }
+#t_canvas h2, #t_canvas h3, #t_canvas h4, #t_canvas h5 { font-family: ".SFNSText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: bold; }
+#t_canvas h3 { font-size: 24px; line-height: 1.5em; margin-bottom: 12px; }
+#t_canvas .t_canvas_left { float: left; width: 64%; min-width: 500px; font-size: 16px; line-height: 25px; }
+#t_canvas .t_canvas_right { float: right; width: 32%; min-width: 225px; }
+#t_canvas .t_save { position: absolute; top: 21px; right: 24px; z-index: 125; }
+#t_canvas .t_alert, #t_canvas .t_ajax_alert { font-size: 16px; line-height: 1.625em; }
+#t_canvas .t_alert { background-color: #fff22b; padding: 12px; border: 1px solid rgba(0,0,0,0.1); }
+#t_canvas > .t_alert { padding: 24px 24px 24px 25px; border-width: 0 0 1px 0; margin: -24px -24px 24px -25px; }
+#t_canvas .t_alert a { text-decoration: underline; }
+#t_canvas .t_alert a:hover { text-decoration: none; }
+#t_canvas .t_ajax_alert { position: absolute; top: 20px; z-index: 1000; }
+#t_canvas .t_ajax_alert .t_message { position: relative; }
+#t_canvas .t_ajax_alert p { padding: 8px 12px; color: #fff; text-shadow: 1px 1px 0 rgba(0,0,0,0.95); background: rgba(0,0,0,0.8); border-radius: 12px; }
+#t_canvas .t_ajax_alert p:after { position: absolute; top: 12px; left: 100%; width: 0; height: 0; content: ' '; border: 9px solid transparent; border-left-color: rgba(0,0,0,0.8); }
+#t_canvas .back_link, #t_canvas .back_link:hover, #t_canvas .back_link:active { text-decoration: none; color: #111; }
+#t_canvas .back_link + h3 { margin-top: 24px; }
+#t_canvas .update-nag { margin-bottom: 25px; padding: 11px 15px; }
+#t_canvas .t_updates { display: inline-block; min-width: 38px; font-weight: bold; text-align: center; cursor: help; background-color: #fcfc0d; border-radius: 24px; box-shadow: 0 1px 1px rgba(0,0,0,0.2); }
+#t_canvas .t_update_alert { padding: 14px; background-color: #fcfc0d; box-shadow: 0 1px 1px rgba(0,0,0,0.2); margin-bottom: 28px; }
+#t_canvas .t_update_alert :last-child { margin-bottom: 0; }
+#wpbody-content > .update-nag { margin-top: 24px; margin-bottom: 24px; }
+#t_header:after, #t_nav:after, #t_logo:after { display: table; clear: both; content: ''; }

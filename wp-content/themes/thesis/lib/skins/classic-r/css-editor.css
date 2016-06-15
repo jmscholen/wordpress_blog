@@ -1,0 +1,293 @@
+/*
+ * ---:[ Thesis CSS reset ]:---
+ */
+* {
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word; }
+
+html {
+  -webkit-text-size-adjust: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+img,
+abbr,
+acronym,
+fieldset {
+  border: 0; }
+
+code {
+  line-height: 1em; }
+
+pre {
+  overflow: auto;
+  clear: both;
+  word-wrap: normal;
+  -moz-tab-size: 4;
+  tab-size: 4; }
+
+sub,
+sup {
+  line-height: 0.5em; }
+
+img,
+.wp-caption {
+  max-width: 100%;
+  height: auto; }
+
+iframe,
+video,
+embed,
+object {
+  display: block;
+  max-width: 100%; }
+
+img {
+  display: block; }
+
+.left,
+.alignleft,
+img[align="left"] {
+  display: block;
+  float: left; }
+
+.right,
+.alignright,
+img[align="right"] {
+  display: block;
+  float: right; }
+
+.center,
+.aligncenter,
+img[align="middle"] {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  float: none;
+  clear: both; }
+
+.block,
+.alignnone {
+  display: block;
+  clear: both; }
+
+input[type="submit"],
+button {
+  cursor: pointer;
+  overflow: visible;
+  -webkit-appearance: none; }
+
+.wp-smiley {
+  display: inline; }
+
+.grt {
+  width: 564px;
+  margin: 0 auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  -webkit-font-smoothing: subpixel-antialiased !important; }
+
+/*
+ * ---:[ links ]:---
+ */
+.grt a {
+  color: #dd0000;
+  text-decoration: none; }
+
+.grt p a {
+  text-decoration: underline; }
+
+.grt p a:hover {
+  text-decoration: none; }
+
+/*
+ * ---:[ typography ]:---
+ */
+.grt,
+.grt h3 {
+  font-size: 16px;
+  line-height: 26px; }
+
+.grt h2 {
+  font-size: 20px;
+  line-height: 31px;
+  margin-top: 39px;
+  margin-bottom: 13px; }
+
+.grt h2,
+.grt h3 {
+  color: #111111; }
+
+.grt h3 {
+  font-weight: bold; }
+
+.grt .small,
+.grt .caption {
+  font-size: 13px;
+  line-height: 22px; }
+
+.grt .drop_cap {
+  font-size: 52px;
+  line-height: 1em;
+  margin-right: 0.15em;
+  float: left; }
+
+.grt p,
+.grt ul,
+.grt ol,
+.grt blockquote,
+.grt pre,
+.grt dl,
+.grt dd,
+.grt .center,
+.grt .block,
+.grt .aligncenter,
+.grt .alignnone,
+.grt .post_image,
+.grt .post_image_box,
+.grt .wp-post-image,
+.grt .caption,
+.grt .wp-caption,
+.grt .alert,
+.grt .note,
+.grt .box,
+.grt .footnotes {
+  margin-bottom: 26px; }
+
+.grt ul,
+.grt ol,
+.grt .stack {
+  margin-left: 26px; }
+
+.grt ul ul,
+.grt ul ol,
+.grt ol ul,
+.grt ol ol,
+.wp-caption p,
+.grt .alert p:last-child,
+.grt .note p:last-child,
+.grt .box p:last-child,
+.grt blockquote.right p,
+.grt blockquote.left p,
+.grt .footnotes p:last-child {
+  margin-bottom: 0; }
+
+.grt .left,
+.grt .alignleft,
+.grt .ad_left {
+  margin-bottom: 26px;
+  margin-right: 26px; }
+
+.grt .right,
+.grt .alignright,
+.grt .ad {
+  margin-bottom: 26px;
+  margin-left: 26px; }
+
+.grt .caption {
+  margin-top: -13px;
+  color: #888888; }
+
+.grt .footnotes p {
+  margin-bottom: 13px; }
+
+.grt ul {
+  list-style-type: square; }
+
+.grt li a {
+  text-decoration: underline; }
+
+.grt li a:hover {
+  text-decoration: none; }
+
+.grt blockquote {
+  color: #888888;
+  margin-left: 13px;
+  padding-left: 13px;
+  border-left: 1px solid #dddddd; }
+
+.grt code {
+  font-family: Consolas, Menlo, Monaco, Courier, Verdana, sans-serif; }
+
+.grt pre {
+  font-family: Consolas, Menlo, Monaco, Courier, Verdana, sans-serif;
+  background-color: #eeeeee;
+  padding: 13px;
+  -webkit-tab-size: 4;
+  -moz-tab-size: 4;
+  tab-size: 4; }
+
+.grt .frame,
+.grt .post_image_box,
+.grt .wp-caption {
+  border: 1px solid #dddddd;
+  background-color: #eeeeee;
+  padding: 13px; }
+
+.grt .wp-caption img,
+.grt .post_image_box .post_image,
+.grt .thumb {
+  margin-bottom: 13px; }
+
+.wp-caption.aligncenter img {
+  margin-right: auto;
+  margin-left: auto; }
+
+.wp-caption .wp-caption-text .wp-smiley {
+  display: inline;
+  margin-bottom: 0; }
+
+.grt .wp-caption p {
+  font-size: 13px;
+  line-height: 22px; }
+
+.grt .alert,
+.grt .note,
+.grt .box {
+  padding: 13px; }
+
+.grt .alert {
+  background-color: #ffff99;
+  border: 1px solid #e6e68a; }
+
+.grt .note {
+  background-color: #eeeeee;
+  border: 1px solid #dddddd; }
+
+.grt .box {
+  background-color: #ffe2e2;
+  border: 1px solid #ffb2b2; }
+
+.grt .footnotes {
+  font-size: 13px;
+  line-height: 22px;
+  border-top: 1px dotted #dddddd;
+  padding-top: 26px; }
+
+.grt .footnotes,
+.grt sub,
+.grt sup {
+  color: #888888; }
+
+.grt blockquote.right,
+.grt blockquote.left {
+  font-size: 26px;
+  line-height: 36px;
+  width: 45%;
+  margin-bottom: 13px; }
+
+.grt blockquote.right,
+.grt blockquote.left {
+  padding-left: 0;
+  border: 0; }

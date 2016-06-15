@@ -1,0 +1,36 @@
+/*
+Copyright 2012 DIYthemes, LLC. Patent pending. All rights reserved.
+DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC.
+License: DIYthemes Software License Agreement
+License URI: http://diythemes.com/thesis/rtfm/software-license-agreement/
+*/
+/*
+Typography calculated at a baseline of 700px and 75cpl
+——————————————————————————————————————————————————————
+42 : 62				Spacing:	7
+33 : 50							14
+26 : 41							28
+20 : 33							42
+16 : 28							56
+13 : 24
+*/
+#t_canvas .t_text { font-size: 16px; line-height: 28px; }
+#t_canvas .t_text h2 { font-size: 33px; line-height: 50px; margin-bottom: 14px; }
+#t_canvas .t_text h3 { font-size: 26px; line-height: 41px; margin-top: 42px; margin-bottom: 14px; }
+#t_canvas .t_text h4 { font-size: 20px; line-height: 33px; margin-top: 42px; margin-bottom: 14px; }
+#t_canvas .t_text h5 { font-size: 16px; line-height: 28px; }
+#t_canvas .t_text > h3:first-child { margin-top: 0; }
+#t_canvas .t_text .t_update_available { margin-top: -4px; }
+#t_canvas .t_text p, #t_canvas .t_text ul, #t_canvas .t_text ol { margin-bottom: 28px; }
+#t_canvas .t_text ul { list-style-type: disc; }
+#t_canvas .t_text ul, #t_canvas .t_text ol { margin-left: 28px; }
+#t_canvas .t_text li { margin-bottom: 7px; }
+#t_canvas .t_text .left { margin-right: 28px; margin-bottom: 28px; }
+#t_canvas .t_text .right { margin-left: 28px; margin-bottom: 28px; }
+#t_canvas .t_text .center { margin: 0 auto 28px auto; }
+#t_canvas .t_text .block { margin: 0 auto 28px 0; }
+#t_canvas .t_bubble { position: relative; padding: 14px; background-color: rgba(202,117,26,0.2); border-radius: 14px; }
+#t_canvas .t_bubble:after { position: absolute; bottom: -28px; left: calc(50% - 14px); display: block; content: ''; width: 0; height: 0; border-color: rgba(202,117,26,0.2) transparent transparent transparent; border-style: solid; border-width: 14px; }
+#t_canvas .t_bubble p { font-size: 16px; line-height: 24px; margin: 0; }
+#t_canvas .t_bubble_cite { margin-top: 16px; text-align: center; }
+#t_canvas .t_bubble_cite p { font: italic 16px/1em Georgia, "Times New Roman", Times, serif; color: #ca751a; }

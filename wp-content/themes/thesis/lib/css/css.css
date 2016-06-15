@@ -1,0 +1,35 @@
+/*
+Copyright 2012 DIYthemes, LLC. Patent pending. All rights reserved.
+DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC.
+License: DIYthemes Software License Agreement
+License URI: http://diythemes.com/thesis/rtfm/software-license-agreement/
+*/
+#t_css { position: relative; width: 100%; height: 100%; }
+#t_css #t_save_css { position: absolute; top: -3px; right: 0; }
+#t_css > h3 { margin-bottom: 0; }
+#t_css > h3 .t_css_tab { display: inline-block; padding: 12px; border-radius: 12px 12px 0 0; cursor: pointer; }
+#t_css > h3 .t_css_tab:hover { background-color: rgba(0,0,0,0.1); }
+#t_css > h3 .t_tab_current, #t_css > h3 .t_tab_current:hover { background-color: rgba(0,0,0,0.15); }
+#t_css .t_css_area { float: left; width: 65%; height: 100%; clear: both; display: none; }
+#t_css .t_css_input, #t_css .CodeMirror { position: relative; width: 100%; height: 100%; z-index: 1000; box-shadow: 0 0 6px rgba(0,0,0,0.3); }
+#t_css #t_css_items { float: right; width: 35%; padding-left: 24px; }
+#t_css .t_items { position: relative; }
+#t_css #t_vars { margin-bottom: 36px; }
+#t_css #t_create_var { position: relative; top: -3px; font-size: 16px; margin-left: 6px; }
+#t_css #t_packages .option_field { margin-bottom: 0; }
+#t_css .t_items h3 { font-size: 24px; line-height: 1.417em; font-weight: bold; margin-bottom: 8px; }
+#t_css .t_items .deprecated { font-size: 14px; line-height: 21px; background: #ffe991; border: 1px solid #e9cd60; padding: 12px; margin-bottom: 12px; }
+#t_css .t_item_list { list-style: none; margin-bottom: 12px; }
+#t_css .t_item_list li { position: relative; display: inline-block; float: left; margin: 0 6px 6px 0; }
+#t_css .t_edit_item { display: block; padding: 9px; font-size: 15px; background: #fff; border: 1px solid rgba(0,0,0,0.15); border-bottom-width: 4px; border-bottom-color: rgba(0,0,0,0.25); border-radius: 12px; cursor: pointer; z-index: 1000; }
+#t_css .t_edit_item:hover { background-color: #fffdcc; }
+#t_css .t_edit_item:active { background-color: #fffb90; border-bottom-width: 2px; margin-top: 2px; }
+#t_css .t_edit_item[data-type="pkg"], #t_css #t_pkg_ref { color: #0899bd; }
+#t_css .t_edit_item[data-type="var"], #t_css #t_var_ref { color: #e64909; }
+#t_css #t_select_package { margin-bottom: 12px; }
+#t_css #t_add_package { display: none; margin-bottom: 12px; }
+#t_css .t_popup_head h4 { font-weight: bold; }
+#t_css .t_popup_head .save_options, #t_css .t_popup_head .cancel_options { float: right; position: relative; top: -4px; /*padding: 9px;*/ margin-left: 12px; }
+#t_css #t_pkg_selector, #t_css #t_pkg_css, #t_css #t_var_css { color: #111; }
+#t_css .t_items > .t_ajax_alert p { white-space: nowrap; }
+#t_css .t_item_list:after { display: table; clear: both; content: ''; }

@@ -1,0 +1,92 @@
+/*
+Copyright 2012 DIYthemes, LLC. Patent pending. All rights reserved.
+DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC.
+License: DIYthemes Software License Agreement
+License URI: http://diythemes.com/thesis/rtfm/software-license-agreement/
+*/
+#t_canvas [data-style~="box"] { box-sizing: border-box; -moz-box-sizing: border-box; }
+#t_canvas [data-style~="button"] { display: inline-block; font-size: inherit; line-height: 1em; text-decoration: none; vertical-align: top; color: #111; background-color: rgba(0,0,0,0.15); padding: 9px 12px; border-style: solid; border-width: 1px 1px 4px 1px; border-color: rgba(0,0,0,0.1); border-bottom-color: rgba(0,0,0,0.25); border-radius: 12px; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; user-select: none; transition: background-color 0.15s ease, color 0.15s ease; }
+#t_canvas [data-style~="button"]:hover { background-color: rgba(0,0,0,0.1); text-decoration: none; }
+#t_canvas [data-style~="button"]:active, #t_canvas [data-style~="button"].active { text-decoration: none; background-color: rgba(0,0,0,0.1); border-bottom-width: 2px; margin-top: 2px; outline: none; }
+#t_canvas [data-style~="button"]:focus { box-shadow: none; outline: none; }
+#t_canvas [data-style~="action"] { color: #fff; text-shadow: 1px 1px 0 rgba(0,0,0,0.25); background-color: #12a7ff; }
+#t_canvas [data-style~="action"]:hover, #t_canvas [data-style~="action"]:active { color: #fff; background-color: #36b4ff; }
+#t_canvas [data-style~="save"] { color: #fff; text-shadow: 1px 1px 0 rgba(0,0,0,0.25); background-color: #509b26; }
+#t_canvas [data-style~="save"]:hover, #t_canvas [data-style~="save"]:active { color: #fff; background-color: #5bae2c; }
+#t_canvas [data-style~="delete"] { color: #fff; text-shadow: 1px 1px 0 rgba(0,0,0,0.25); background-color: #d50b0b; }
+#t_canvas [data-style~="delete"]:hover, #t_canvas [data-style~="delete"]:active { color: #fff; background-color: #ed0c0c; }
+#t_canvas [data-style~="object"] { background-color: #fff; margin: 0 4px 8px 0; }
+#t_canvas [data-style~="object"]:hover, #t_canvas [data-style~="object"]:active { background-color: #fffdcc; }
+#t_canvas [data-style~="close"] { display: inline-block; width: 2em; font-family: tf; font-weight: normal; font-size: inherit; line-height: 2em; text-align: center; text-decoration: none; vertical-align: top; color: #111; background-color: rgba(0,0,0,0.15); border: 1px solid rgba(0,0,0,0.1); border-radius: 100%; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; user-select: none; transition: background-color 0.15s ease, color 0.15s ease; }
+#t_canvas [data-style~="close"]:hover, #t_canvas [data-style~="close"]:active { background-color: rgba(0,0,0,0.1); text-decoration: none; outline: none; }
+#t_canvas [data-style~="switch"] { font-weight: normal; line-height: 1em; padding: 6px 6px 3px; color: rgba(0,0,0,0.3); cursor: pointer; }
+#t_canvas [data-style~="switch"]:hover { color: rgba(0,0,0,0.85); }
+#t_canvas [data-style~="toggle"] { display: inline-block; font: normal 20px/1em tf; color: rgba(0,0,0,0.4); cursor: pointer; }
+#t_canvas [data-style~="toggle"]:hover { color: rgba(0,0,0,0.85); }
+#t_canvas [data-style~="update"] { color: #222; background-color: #fcfc0d; }
+#t_canvas [data-style~="update"]:hover, #t_canvas [data-style~="update"]:active { color: #222; background-color: #fefea4; }
+#t_canvas [data-style~="inline"] { margin-left: 1em; }
+#t_canvas [data-style~="block"] { display: block; margin-top: 12px; }
+#t_canvas [data-style~="icon"] { font-family: tf; font-weight: normal; }
+/*---:[ options ]:---*/
+#t_canvas .thesis_options_form .dependent { display: none; }
+#t_canvas .option_item { margin-bottom: 24px; clear: both; }
+#t_canvas .option_item:last-child { margin-bottom: 0; }
+#t_canvas .option_field { position: relative; clear: both; }
+#t_canvas .option_field p, #t_canvas .option_field ul, #t_canvas .option_field .list_label { font-size: 16px; line-height: 1.625em; }
+#t_canvas .option_field input[type~="text"], #t_canvas .option_field p textarea, #t_canvas [data-style~="input"] { line-height: 1.25em; padding: 6px 5px; color: #48694a; background: #ffe9cc; border: 1px solid #e6dcd6; border-width: 0 0 1px 0; box-shadow: 0 -1px 0 rgba(0,0,0,0.3), inset 0 1px 2px rgba(0,0,0,0.2); border-radius: 4px; box-sizing: border-box; }
+#t_canvas .option_field p input:focus, #t_canvas .option_field p textarea:focus, #t_canvas [data-style~="input"]:focus { background: #fffdcc; -webkit-transition: background 1s; -moz-transition: background 1s; -o-transition: background 1s; }
+#t_canvas .option_field p textarea { display: block; width: 100%; line-height: 1.625em; box-sizing: border-box; }
+#t_canvas .option_field p .input_description, #t_canvas .option_field p .counter_label { font: normal 14px/1.571em ".SFNSText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; color: #999; }
+#t_canvas .option_field li { font-size: 14px; line-height: 1.857em; }
+#t_canvas .option_field label, #t_canvas .option_custom > label { display: block; font-weight: bold; margin-bottom: 3px; font-family: ".SFNSText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+#t_canvas .option_field li label { display: inline; font-weight: normal; margin-bottom: 0; }
+#t_canvas .option_field li label img { vertical-align: middle; }
+#t_canvas .option_field .toggle_tooltip { font-family: tf; font-weight: normal; padding: 4px; color: rgba(0,0,0,0.4); cursor: pointer; }
+#t_canvas .option_field .toggle_tooltip:hover { color: rgba(0,0,0,0.75); }
+#t_canvas .option_field select { font-size: inherit; height: 2em; color: #48694a; border-color: rgba(0,0,0,0.25); }
+#t_canvas .option_field code { font-weight: normal; padding: 0 2px; }
+#t_canvas .option_field input[type~="text"].counter { width: 45px; margin-top: 3px; padding: 3px 5px; text-align: center; color: #111; background: #ccc; border: 1px solid #c1c1c1; box-shadow: none; }
+#t_canvas .option_field input[type~="text"].counter:focus { background: #ccc; }
+#t_canvas .option_field .counter_label { display: inline; }
+#t_canvas .option_field .tiny { width: 50px; }
+#t_canvas .option_field .short { width: 120px; }
+#t_canvas .option_field .medium { width: 200px; }
+#t_canvas .option_field .long { width: 400px; }
+#t_canvas .option_field .full { width: 100%; }
+#t_canvas .option_field .required { color: #d00; }
+#t_canvas .option_field .code_input { font-family: Consolas, Menlo, Monaco, Verdana, sans-serif; }
+#t_canvas .option_field .tooltip { display: none; position: absolute; top: 0; left: 0; font: normal 16px/1.625em ".SFNSText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; padding: 12px; color: #fff; background: rgba(0,0,0,0.8); z-index: 2500; border-radius: 12px; box-shadow: 0 0 9px rgba(0,0,0,0.3); }
+#t_canvas .option_field .tooltip code { font-size: 14px; line-height: 1.857em; color: #fff; background: rgba(0,0,0,0.95) !important; }
+#t_canvas .option_field .tooltip a { color: #ffc822; text-decoration: underline; }
+#t_canvas .option_field .tooltip a:hover { color: #fff722; }
+#t_canvas .option_field .upload_field { margin-bottom: 12px; }
+#t_canvas .option_group .group_fields > .option_field.group_description { font-size: 16px; line-height: 1.625em; color: #999; padding-bottom: 0;}
+#t_canvas .option_group > label { font: bold 16px/1.625em ".SFNSText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 3px; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; user-select: none; }
+#t_canvas .option_group .toggle_group { margin-left: 4px; }
+#t_canvas .option_group > label:hover > .toggle_group { color: #ec9d10; }
+#t_canvas .option_group .group_fields { display: none; margin-top: 12px; padding: 0 12px 0 24px; border-left: 1px solid rgba(0,0,0,0.2); }
+#t_canvas .object_set > .option_field { margin-bottom: 12px; }
+#t_canvas .object_list { list-style: none; margin-bottom: 12px; }
+#t_canvas .object_list .t_ajax_alert { max-width: 300px; }
+#t_canvas .object_list .t_ajax_alert p:after { top: auto; bottom: 100%; left: 12px; border-color: transparent transparent rgba(0,0,0,0.8) transparent; }
+/*---:[ popups ]:---*/
+#t_canvas .t_popup { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.25); z-index: 1000; }
+#t_canvas .t_popup_html { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 60%; min-width: 600px; height: 65%; min-height: 350px; margin: auto; background: #fff; box-shadow: 0 0 15px rgba(0,0,0,0.4); z-index: 1050; overflow: auto; }
+#t_canvas .t_popup_form { float: left; width: 100%; }
+#t_canvas .t_popup_head { position: fixed; z-index: 1060; width: 60%; min-width: 600px; padding: 12px 12px 0 12px; background: #fff; border-bottom: 1px solid #ddd; }
+#t_canvas .t_popup_head h4 { font-size: 20px; line-height: 1.5em; font-weight: normal; margin-bottom: 12px; }
+#t_canvas .t_popup_head .t_popup_close { position: absolute; top: 10px; right: 12px; margin-left: 12px; }
+#t_canvas .t_popup_head .save_options, #t_canvas .t_popup_head .cancel_options { float: right; margin: -1px 0 0 12px; }
+#t_canvas .t_popup_menu li { float: left; font-size: 13px; line-height: 1em; padding: 8px 12px; color: #111; border-radius: 7px 7px 0 0; cursor: pointer; -webkit-user-select: none; -moz-user-select: none; user-select: none; }
+#t_canvas .t_popup_menu li:hover { background: rgba(0,0,0,0.1); }
+#t_canvas .t_popup_menu li.active { background: rgba(0,0,0,0.15); }
+#t_canvas .t_popup_body { padding: 12px; }
+#t_canvas .t_popup_body .pane { display: none; }
+#t_canvas .t_popup_body .options_controls { margin: 12px -12px 0 -12px; padding: 12px 12px 0 12px; border-top: 1px dotted #ddd; }
+/*---:[ options object popups ]:---*/
+#t_canvas .object_popup { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.25); z-index: 1100; }
+#t_canvas .object_popup_html { position: absolute; top: 0; right: 0; bottom: 0; left: 0; width: 60%; min-width: 600px; height: 65%; min-height: 350px; margin: auto; padding: 24px; background: #fff; box-shadow: 0 0 15px rgba(0,0,0,0.4); z-index: 1050; overflow: auto; }
+#t_canvas .object_popup_close { position: absolute; top: 12px; right: 24px; }
+#t_canvas .object_popup_name { font-size: 20px; line-height: 1em; font-weight: bold; padding-bottom: 18px; border-bottom: 1px solid #eee; margin-bottom: 18px; }
+#t_canvas .t_ajax_alert:after, #t_canvas .object_list:after, #t_canvas .t_popup_head:after, #t_canvas .t_popup_menu:after { display: table; clear: both; content: ''; }

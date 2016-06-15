@@ -1,0 +1,21 @@
+/*
+Copyright 2012 DIYthemes, LLC. Patent pending. All rights reserved.
+DIYthemes, Thesis, and the Thesis Theme are registered trademarks of DIYthemes, LLC.
+License: DIYthemes Software License Agreement
+License URI: http://diythemes.com/thesis/rtfm/software-license-agreement/
+*/
+#t_canvas > .t_alert { margin-bottom: 0; }
+#t_canvas #skin_upload { float: right; position: relative; top: -3px; }
+#t_canvas .active_skin { background-color: #fff; padding: 24px 24px 12px 25px; margin: -24px -24px 36px -25px; }
+#t_canvas .preview_skin { background-color: #daecf5; margin-bottom: 0; }
+#t_canvas .preview_skin + .active_skin, #t_canvas .t_alert + .active_skin { margin-top: 0; }
+#t_canvas .skin_info { font-size: 16px; line-height: 1.5em; padding: 12px 0; border-top: 1px solid rgba(0,0,0,0.1); margin-top: 12px; }
+#t_canvas .skin_info h4 { font: bold 20px/1.55em ".SFNSText-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif; margin-bottom: 8px; }
+#t_canvas .skin_info .skin_by { font: normal 13px/2.385em Georgia, "Times New Roman", Times, serif; font-style: italic; color: #888; }
+#t_canvas .skin_info .skin_version, #t_canvas .skin_info .skin_author { font-size: 14px; line-height: 2.214em; font-weight: normal; }
+#t_canvas .skin_info p { margin-bottom: 0.75em; }
+#t_canvas .skin_info a { text-decoration: none; }
+#t_canvas .skin_info .stop_preview { margin-right: 8px; }
+#t_canvas .skin_info .skin_delete { float: right; margin-left: 12px; }
+#t_canvas .skin_screenshot { float: right; max-width: 300px; border: 12px solid rgba(0,0,0,0.05); margin: -12px 0 12px 24px; }
+#t_canvas .skin_info:after { display: table; clear: both; content: ''; }
